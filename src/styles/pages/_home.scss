@@ -20,9 +20,15 @@
   width: 500px;
   height: 300px;
   overflow: hidden;
-
   border: 2px #007aff solid;
   border-radius: 3px;
+  .swiper-slide {
+    background-color: $brand-color;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+  }
 }
 
 .swiper-slide {
@@ -34,7 +40,7 @@
   align-items: center;
 }
 
-.masthead {
+.main-banner {
   height: 40vh;
   min-height: 700px;
   background-image: url('/assets/images/Razerbanner.jpg');
@@ -42,7 +48,61 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.second-banner {
+  height: 40vh;
+  min-height: 700px;
+  background-image: url('/assets/images/razer-banner1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 .mainbanner-title {
   margin-top: 140px;
+}
+.flex-container {
+  display: flex;
+  
+}
+.card-body{
+  background-color: $bg-color;
+  border: none;
+}
+
+.Razer-Nari-feature {
+  text-align: center;
+  justify-content: center;
+}
+// .featured-desc,
+// .mt-4{
+//   max-width: 250px;
+//   font-size: 14px;
+// }
+
+.flex-grid {
+  display: flex;
+
+}
+.col {
+  flex: 1;
+}
+.card-body{
+  max-width: 500px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.card-content,
+p {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto; 
+  
+}
+
+.explore-products {
+  width: 100px;
+  height: 200px;
+  background-color: #161415;
 }

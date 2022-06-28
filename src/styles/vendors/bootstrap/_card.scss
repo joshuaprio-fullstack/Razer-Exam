@@ -16,9 +16,10 @@
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: $card-bg;
+  background-color: none;
   background-clip: border-box;
-  border: $card-border-width solid $card-border-color;
+  border: none;
+  min-width: 400px;
   @include border-radius($card-border-radius);
 
   > hr {

@@ -15,16 +15,20 @@ h1 {
 }
 
 .nav-link {
-  color: #7D7777;
+  color: $text-color;
   font-size: 13px;
   font-weight: 500;
   padding-right: 20px !important;
 }
 
-h2 {
-  color: #00ff01;
+h2,h3 {
+  color: $brand-color;
 }
 
 p {
   font-size: 16px;
+}
+h6 {
+  color: #fff;
+  font-style: bold;
 }
