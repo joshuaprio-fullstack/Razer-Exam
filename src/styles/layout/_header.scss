@@ -3,3 +3,9 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
+@media  (min-width: 1000px){
+  .navbar.navbar-expand-md {
+    height: 50px;
+  }
+  
+}

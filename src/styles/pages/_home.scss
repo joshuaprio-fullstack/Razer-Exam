@@ -6,7 +6,7 @@
 
 .home {
   transition: all .2s ease-in-out;
-  
+
   .section-intro {
     padding: 40px 0;
 
@@ -34,3 +34,15 @@
   align-items: center;
 }
 
+.masthead {
+  height: 40vh;
+  min-height: 700px;
+  background-image: url('/assets/images/Razerbanner.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mainbanner-title {
+  margin-top: 140px;
+}
