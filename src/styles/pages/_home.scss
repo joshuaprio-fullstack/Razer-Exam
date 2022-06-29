@@ -69,11 +69,11 @@
   border: none;
 }
 
-.Razer-Nari-feature {
+.razer-title {
   text-align: center;
   justify-content: center;
 }
-// .featured-desc,
+// .featured-min-,
 // .mt-4{
 //   max-width: 250px;
 //   font-size: 14px;
@@ -83,13 +83,9 @@
   display: flex;
 
 }
+
 .col {
   flex: 1;
-}
-.card-body{
-  max-width: 500px;
-  margin: 0 auto;
-  width: 100%;
 }
 
 .card-content,
@@ -101,8 +97,38 @@ p {
   
 }
 
-.explore-products {
-  width: 100px;
-  height: 200px;
+.product {
+  width: auto;
+}
+
+.product-content {
   background-color: #161415;
+  border-bottom: 8px $brand-color solid;
+}
+
+.inform-cont {
+  text-align: left;
+}
+
+.inform-cont
+h6 {
+  font-weight: 600;
+  color: #fff;
+}
+
+.razer-title
+.contact-title {
+  text-align: left;
+}
+.contact-us {
+  background-color: #080808;
+}
+
+div#navbarSupportedContent {
+  align-items: center;
+  justify-content: center;
+}
+
+.social-media {
+  display: inline-block;
 }
